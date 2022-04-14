@@ -1,0 +1,53 @@
+{
+    /* 需要编译的目录 */
+    "include": [
+        "./src/**/*"
+    ],
+    /* 不需要编译的目录 */
+    "exclude": [
+        "./src/hello/**/*"
+    ],
+    /* 需要继承的配置信息 */
+    "extends": "",
+    /* 指定哪个文件需要编译 */
+    "files": [
+        ""
+    ],
+    /* 编译器的选项(项目选项) */
+    "compilerOptions": {
+        /* 代码编译的目标版本 */
+        "target": "ES5",
+        /* 指定代码运行时所包含的库,一般不用写 */
+        "lib": [
+            "ES5",
+            "ES6",
+            "DOM"
+        ],
+        /* 代码编译后使用的模块化系统 */
+        "module": "CommonJS",
+        /* 编译后文件所在目录 */
+        "outDir": "./dist",
+        /* 将所有代码合并为一个文件 */
+        "outFile": "",
+        /* 是否对 js 文件进行编译, 默认不编译 */
+        "allowJs": false,
+        /* 是否检查 js 代码是否符合规范 */
+        "checkJs": false,
+        /* 是否移除注释 */
+        "removeComments": true,
+        /* 不生成编译后的文件,可以用于检查语法 */
+        "noEmit": false,
+        /* 有错误时,不生成编译后的文件 */
+        "noEmitOnError": false,
+        /* 设置编译后的文件是否使用严格模式,默认不使用 */
+        "alwaysStrict": false,
+        /* 不允许隐式的 any 类型存在 */
+        "noImplicitAny": false,
+        /* 不允许不明确类型的 this */
+        "noImplicitThis": false,
+        /* 严格检查可能为空值的变量 */
+        "strictNullChecks": false,
+        /* 所有严格检查的总开关,true 全开, false 全关 */
+        "strict": false
+    }
+}
